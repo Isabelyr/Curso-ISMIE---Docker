@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(240, 175, 35);
+  background-image: radial-gradient(farthest-corner at 60% 55%, rgb(255, 94, 0), rgb(255, 136, 0), rgb(250, 132, 11));
+}
+
+header {
+  background-color: rgb(255, 169, 57);
+  background-image: linear-gradient(to bottom right, rgb(255, 115, 0), rgb(255, 187, 0));
+  padding-top: 20px;
+  
+ 
+}
+header a {
+  text-decoration: none;
+ color: black;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+  
+}
+
+footer {
+  background-color: rgb(255, 169, 57);
+  background-image: linear-gradient(to bottom right, rgb(255, 115, 0), rgb(255, 187, 0));
+  text-align: center;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+main {
+  width: 50%;
+  float: left;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+article {
+  clear: both;
+  
+}
+
+aside {
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+section {
+  margin-left: 50px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#buscador {
+  float: right;
+
+}
